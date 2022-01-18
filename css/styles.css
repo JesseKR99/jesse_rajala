@@ -1,0 +1,24 @@
+body{
+background-color: rgb(200, 213, 224);
+margin: 20px;
+font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+p {
+color: black;
+font-size: larger;
+margin-bottom: 20px;
+border: black;
+}
+
+img {
+
+}
+
+h1{
+color: blue;
+}
+
+h2{
+color: crimson;
+}
