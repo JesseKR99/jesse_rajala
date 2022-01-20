@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Flex box Examples</title>
+</head>
+<style>
+    .flexContainer{
+        display: flex;
+        flex-wrap: wrap;
+        background-color: red;
+        align-content: space-between;
+    }
+
+    .flexContainer > div, div{
+        background-color: bisque;
+        margin: 10px;
+        width: fit-content;
+    }
+
+    header, footer {
+        background-color: aquamarine;
+        min-height: 70px;
+    }
+
+    .leftbar, .rightbar{
+        background-color: black;
+        color: aliceblue;
+        
+    }
+    
+
+</style>
+<body>
+
+    <header>This is going to be our header</header>
+
+    <div class="flexContainer">
+        
+        <div>Division 1
+            <p>Left bar</p>
+        </div>
+        <div>Division 2
+            <p>hello world</p>
+        </div>
+        <div>Division 4</div>
+
+    </div>
+
+    <footer>This is our footer</footer>
+</body>
+</html>
