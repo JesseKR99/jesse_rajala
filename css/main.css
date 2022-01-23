@@ -6,3 +6,6 @@ body{
     background-color: skyblue;
 }
 
+header, footer{
+    text-align: center;
+}
