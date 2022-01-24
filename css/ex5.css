@@ -1,0 +1,36 @@
+body{
+    background-color: bisque;
+}
+
+.blue{
+    background-color: darkorchid;
+}
+
+header, footer{
+    text-align: center;
+    
+}
+
+footer{
+    font-size: larger;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    padding-top: 20px;
+}
+
+.table1{
+    padding-top: 10px;
+}
+
+.table1 table{
+    width: 80%;
+}
+
+.sidebar{
+    width: 250px;
+}
+
+.button1{
+    border: none;
+    margin-top: 20px;
+}
+
